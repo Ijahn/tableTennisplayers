@@ -17,6 +17,8 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MensPlayerBioComponent } from './mens-player-bio/mens-player-bio.component';
 import { MatTabsModule } from '@angular/material/tabs';
+import {MatTableModule} from '@angular/material/table';
+import {MatExpansionModule} from '@angular/material/expansion';
 // import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
@@ -38,7 +40,9 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatToolbarModule,
     MatDividerModule,
     MatSidenavModule,
-    MatTabsModule
+    MatTabsModule,
+    MatTableModule,
+    MatExpansionModule
     // MatDialog
   ],
   entryComponents: [
